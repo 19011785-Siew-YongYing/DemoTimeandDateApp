@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
                 int hr = tp.getCurrentHour();
                 int min = tp.getCurrentMinute();
                 //tvDisplay.setText("Time is " + timeHr + ":" + min);
-                tvDisplay.setText(String.format("Time is %d:%2d", hr, min));
+                tvDisplay.setText(String.format("Time is %02d:%02d", hr, min));
 
                 // String timeis = "Time is " + tp.getCurrentHour() + ":" + tp.getCurrentMinute();
                 // tvDisplay.setText(timeis);
